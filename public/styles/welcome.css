@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+}
+
+html,body {
+    height: 100dvh;
+    width: 100dvw;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+}
+
+
+header a{
+    color: rgb(255, 230, 230);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px 20px 0px 0px;
+}
+
+.logo{
+    margin: 0px 0px 0px -250px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, black, #181616);
+    height: 94.6%;
+}
+
+.sobre{
+    width: 600px;
+    color: white;
+    font-size: 25px;
+    align-items: left;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 200px 0px 200px 200px;
+}
+
+
+.filmes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.filmes div{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    align-items: baseline;
+    align-content: flex-end;
+    color: white;
+    font-size: 0px;
+    transition-duration: 1000ms;
+}
+
+.filmes div:hover{
+    background-size: 140%;
+    font-size: 20px;
+}
+
+.filmes div section{
+    margin: 150px 0px 0px 20px;
+}
+
+.filmes div:nth-child(1){ 
+    background: url(../img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: left;
+}
+
+.filmes div:nth-child(2){ 
+    background: url(../img/332648.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: top right;
+
+}
+
+.filmes div:nth-child(3){ 
+    background: url(../img/71mXmB41psS._AC_UF894\,1000_QL80_.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+}
+
+.filmes div:nth-child(4){ 
+    background: url(../img/HD-wallpaper-stranger-things-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: right;
+}
+
+button{
+    background:linear-gradient(to bottom right, #e50914 60%, #a0050d);
+    padding: 5px 8px 5px 8px;
+    color: white;
+    border: 0px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
