@@ -1,0 +1,29 @@
+{
+  "usuarios": [
+    {
+      "nome": "Guti_Top",
+      "senha": "senaisenai",
+      "cpf": "444.444.444-44",
+      "email": "gu@email",
+      "cep": "08800230",
+      "cidade": "Petropólis",
+      "estado": "SP",
+      "rua": "Boto-Corrosa",
+      "papel": "admin",
+      "telefone": "11999999999",
+      "id": "41fa"
+    },
+    {
+      "id": "c868",
+      "nome": "Lucaszika123",
+      "senha": "123123",
+      "cpf": "241.241.252-15",
+      "email": "lucas@gmail",
+      "cep": "01101000",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "rua": "Avenida Santos Dumont",
+      "telefone": "11123125125"
+    }
+  ]
+}
